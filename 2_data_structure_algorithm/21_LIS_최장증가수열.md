@@ -59,6 +59,8 @@
 ## 구현 방법:
 - **DP**:
 
+   - 알고리즘 이해:
+   
   ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FxGQTQ%2FbtrXcete2DA%2FDXiloyyufxzEPgYCoOD2k0%2Fimg.png)
 
   - LIS DP 구현 코드:
@@ -76,6 +78,8 @@
       return max(length)
   ```
 - **이분 탐색**:
+
+    - 알고리즘 이해:
 
    ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnY2va%2FbtrXg3ywIgu%2FaK8qmC1Ht0aBuEnkW7rhTK%2Fimg.png)
 
