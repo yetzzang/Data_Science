@@ -8,21 +8,27 @@
 
 <br>
 - 예시 1)
+
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdTXGdh%2FbtrW6pJ3gRV%2Fi42ghmOwyGiMh0lghwRrj1%2Fimg.png)
 
 <br>
 - 예시2)
+
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FNJydP%2FbtqDyMSpdCb%2F2DtvIYX4K1lOEj9AcL0PiK%2Fimg.png)
+
   - 위와 같은 길이가 8인 수열이 주어졌을때, 이 수열에서 증가하는 부분 수열을 뽑는다면 다음과 같이 여러 수열이 나온다.
   - 예를 들어, [2, 3] , [1, 3] , [2,5] , [2,3,5] , [1,3,5] ...
-  - 그 중에서 가장 길이가 긴 수열은 [2,3,5,6,7] 이다
+  - 그 중에서 가장 길이가 긴 수열은 [2,3,5,6,7] 이다.
+
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FLCJDO%2FbtqDDwthCoN%2FZw3iyGPwYo1PLg3rqIOZG0%2Fimg.png)
+
   - [1,3,5,6,7]도 가장 길이가 긴 수열로 가능하다.
   - 이와 같이 LIS는 반드시 하나로 결정되는 것은 아니다. 따라서 수열을 구한다면 답이 여러 개가 될 수도 있다.
 
 <br>
- ---
- ## 최장 증가 수열 특징
+
+---
+## 최장 증가 수열 특징
 
  - **장점**
     - 유용한 데이터 패턴 식별: 데이터에서 중요한 패턴을 식별하는 데 도움이 된다. 예를 들어 주식 가격 데이터에서 최장 증가 수열을 찾으면 주식 시장의 트렌드를 분석하는 데 도움이 될 수 있습니다.
@@ -51,8 +57,11 @@
 ---
 
 ## 구현 방법:
-  - **DP**:
+- **DP**:
+
   ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FxGQTQ%2FbtrXcete2DA%2FDXiloyyufxzEPgYCoOD2k0%2Fimg.png)
+
+  - LIS DP 구현 코드:
 
   ```python
   def lis_dp(arr):
@@ -66,8 +75,12 @@
 
       return max(length)
   ```
-  - **이분 탐색**:
+- **이분 탐색**:
+
    ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnY2va%2FbtrXg3ywIgu%2FaK8qmC1Ht0aBuEnkW7rhTK%2Fimg.png)
+
+   - LIS binary search 구현 코드:
+
    ```python
    def lis_binary_search(arr):
        lis = [arr[0]]  # 가장 긴 증가하는 부분 수열. 가장 뒤에 있는 값은 부분 수열 중 가장 최댓값
