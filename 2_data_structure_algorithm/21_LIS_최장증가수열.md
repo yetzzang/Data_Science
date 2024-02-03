@@ -7,12 +7,12 @@
   크다는 조건을 만족하고, 그 길이가 최대인 부분 수열을 최장 증가 부분 수열이라고 합니다.
 
 <br>
-- 예시 1)
+예시 1)
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdTXGdh%2FbtrW6pJ3gRV%2Fi42ghmOwyGiMh0lghwRrj1%2Fimg.png)
 
 <br>
-- 예시2)
+예시2)
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FNJydP%2FbtqDyMSpdCb%2F2DtvIYX4K1lOEj9AcL0PiK%2Fimg.png)
 
@@ -60,7 +60,7 @@
 - **DP**:
 
    - 알고리즘 이해:
-   
+
   ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FxGQTQ%2FbtrXcete2DA%2FDXiloyyufxzEPgYCoOD2k0%2Fimg.png)
 
   - LIS DP 구현 코드:
